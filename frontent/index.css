@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+h1{
+    font-size: 25px;
+    margin: 25px 0 45px;
+}
+.box_label{
+    text-align: left;
+    position: relative;
+    height: 70px;
+}
+span{
+    position: absolute;
+    font-weight: bold;
+}
+input{
+    margin: 25px 10px 0 0;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: .5px solid rgb(180, 180, 180);
+    border-radius: 5px;
+}
+.save_new{
+    top: 0;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 236);
+    color: white;
+}
+table{
+    width: 800px;
+    margin-top: 45px;
+
+}
+th{
+    color: rgb(158, 157, 157);
+    text-align: start;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+td{
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.delete_user,
+.edit_name{
+    width: 20px;
+    border: none;
+    margin-right: 10px;
+}
+img{
+    width: 20px;
+}
+.dialog{
+    text-align: center;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid rgba(0, 127, 255, 1);
+    border-radius: 10px;
+    padding: 20px 10px 20px;
+}
+.new_name,
+.new_age{
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgba(0, 127, 255, 1);
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.6px;
+    text-align: center;
+    color: rgba(0, 127, 255, 1);
+    margin-bottom: 25px;
+}
+.save_edit{
+    width: 155px;
+    height: 42px;
+    border: none; 
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.83px;
+    text-align: center;
+    background: rgba(0, 113, 227, 1);
+    color: #fff;
+}
+.complited{
+    text-decoration: line-through 2px red;
+}

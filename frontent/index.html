@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont">
+        <form name="add_new" class="new_person">
+            
+            <label for="name">
+                <span>Имя</span>
+                <input name="name" id="name" type="text" placeholder="Ваше имя">
+            </label>
+            
+            <button class="save_new">Показать</button>
+        </form>
+        <table class="users_data">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Имя студента</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody class="place"></tbody>
+        </table>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
